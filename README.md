@@ -7,7 +7,7 @@ RViz is used for visualisation and interactive joint control; Gazebo (optional) 
 
 ## 1 Project Structure
 
-![Comparison Chart](screenshots/robotic_arm_control_methods.png)
+![Comparison Chart](images/repotree.png)
 
 ## 2 Quick Start
 
@@ -50,15 +50,14 @@ text
 
 ## 4 Screenshots
 
-| RViz (sliders)                                   | Gazebo (physics)                                  |
-|--------------------------------------------------|---------------------------------------------------|
-| ![RViz](screenshots/rviz_screenshot.png)         | ![Gazebo](screenshots/gazebo_simulation.png)      |
+ RViz (sliders) 
+ ![RViz](images/keyboard control.png)        
 
 ---
 
 ## 5 Control-Method Comparison
 
-![Comparison Chart](screenshots/robotic_arm_control_methods.png)
+![Comparison Chart](images/graph.png)
 
 | Method                    | Ease of Use (1-5) | Real-time Response (1-5) |
 |---------------------------|-------------------|--------------------------|
