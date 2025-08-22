@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<xacro:include filename="my_robot_arm.urdf.xacro"/>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="my_robot_arm">
+  <!-- pull in all links/joints from the RViz model -->
+  <xacro:my_robot_arm/>
+
+  <!-- simple inertias for simulation -->
+  <xacro:macro name="add_inertia" params="link mass radius length">
+    <inertial>
+      <origin xyz="0 0 ${length*0.5}"/>
+      <mass value="${mass}"/>
+      <inertia ixx="${1/12*mass*3*radius*radius}" i
