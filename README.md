@@ -51,7 +51,7 @@ text
 ## 4 Screenshots
 
  RViz (sliders) 
- ![RViz](images/keyboard control.png)        
+ ![RViz](images/keyboardcontrol.png)        
 
 ---
 
@@ -99,4 +99,4 @@ text
 ## 8 Contributing & License
 
 Pull requests are welcome; please follow ROS 2 coding conventions.  
-Released under the Apache 2.0 license.
+Released under the MIT license.
