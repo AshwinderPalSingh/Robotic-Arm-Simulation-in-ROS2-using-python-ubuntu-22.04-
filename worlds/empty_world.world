@@ -1,0 +1,7 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+  <world name='default'>
+    <include><uri>file://media/models/ground_plane</uri></include>
+    <include><uri>file://media/models/sun</uri></include>
+  </world>
+</sdf>
